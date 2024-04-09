@@ -1,0 +1,12 @@
+serverAddr = "103.113.85.216"
+serverPort = 7012
+auth.token = "admin123.."
+
+[[proxies]]
+name = "plugin_socks5"
+type = "tcp"
+remotePort = 6005
+[proxies.plugin]
+type = "socks5"
+username = "admin"
+password = "admin123.."
